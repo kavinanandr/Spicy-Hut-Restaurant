@@ -1,0 +1,137 @@
+/* page reset */
+*, h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --WHITE: whitesmoke;
+    --RED: crimson;
+    --GREEN: #53bf9d;
+    --YELLOW: #ffc54d;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+header{
+    display: flex;
+    padding: 1rem;
+    color: var(--RED);
+}
+
+.tagline2{
+    color: var(--YELLOW);
+}
+
+
+#logo{
+    flex-grow: 3;
+    color: var(--YELLOW);
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-grow: 2;
+}
+
+nav a{
+    flex-grow: 1;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    color: var(--YELLOW);
+}
+
+nav a:hover{
+    color: var(--GREEN);
+}
+
+.maintext{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.tagline1{
+    color: var(--RED);
+    font-size: 1.15rem;
+    font-weight: bolder;
+}
+
+.tagline2{
+    color: var(--YELLOW);
+}
+
+.callus{
+    color: var(--WHITE);
+}
+
+button{
+    background-color: var(--GREEN);
+    border-radius: 10px;
+    padding: 0.7rem;
+    color: var(--WHITE);
+}
+
+.menu, #locheading, #menuheading{
+    background-image: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+}
+
+#locheading, #menuheading{
+    color: var(--RED);
+    text-align: center;
+    font-size:1.75rem;
+    padding: 1rem;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    justify-items: center;
+    color: var(--WHITE);
+}
+
+th{
+    color: var(--GREEN);
+    font-size: 1.25rem;
+}
+
+table{
+    width: 100%;
+    padding: 1rem;
+    min-width: 256px;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+td:first-child{
+    justify-self: left;
+    flex-grow: 1;
+}
+
+td:last-child{
+    justify-self: right;
+}
+
+.starters, .maincourse, .chats{
+    width: 100%;
+}
