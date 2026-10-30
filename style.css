@@ -288,4 +288,37 @@ i{
     .tagline2, .callus, button{
         font-size: 1.25rem;
     }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .tagline1{
+        font-size: 3rem;
+    }
+
+    .tagline2, .callus, button{
+        font-size: 2rem;
+    }
+
+    .locheading, .menuheading{
+        font-size: 2.5rem;
+    }
+
+    th{
+        font-size:1.75rem;
+    }
+
+    td{
+        font-size: 1.25rem;
+    }
+
+    .locations div{
+        font-size: 1.2rem;
+    }
+
+    header{
+        font-size: 1.75rem;
+    }
+
 }
