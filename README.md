@@ -10,14 +10,13 @@ A modern, fully responsive single-page front-end website built for **Spicy Hut**
 - [Technologies Used](#-technologies-used)
 - [File Structure](#-file-structure)
 - [Getting Started](#-getting-started)
-- [Key Implementation Details](#-key-implementation-details)
 - [Author](#-author)
 
 ---
 
 ## 📖 Overview
 
-Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth digital experience for restaurant patrons. It features a full-screen landing view, categorized item grids for starters, main courses, and chaats, multi-branch addresses across Chennai, and animated social media tooltips.
+Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth digital experience for restaurant patrons. It features a full-screen landing view, categorized item grids for starters, main courses, and chats, multi-branch addresses across Chennai, and animated social media tooltips.
 
 ---
 
@@ -44,7 +43,6 @@ Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth di
   - CSS Custom Properties (`:root` variables)
   - Flexbox and CSS Grid layouts
   - Custom transition cubic-beziers and box-shadows
-- **Google Fonts**: Poppins typography integration
 - **Font Awesome 6**: Vector icon support for social branding
 
 ---
@@ -54,7 +52,7 @@ Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth di
 Spicy-Hut-Restaurant/
 ├── img/
 │   ├── bg.jpg               # Hero background imagery
-│   └── favicon.ico          # Browser tab icon / branding icon
+│   └── favicon.svg         # Browser tab icon / branding icon
 ├── index.html               # Main webpage structure
 ├── style.css                # Styling, themes, layouts, and animations
 └── README.md                # Project documentation
