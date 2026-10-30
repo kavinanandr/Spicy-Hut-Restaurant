@@ -59,6 +59,8 @@ Spicy-Hut-Restaurant/
 └── README.md                # Project documentation
 ```
 
+---
+
 ## Prerequisites
 
 - A modern web browser.
