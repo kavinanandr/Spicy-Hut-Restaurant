@@ -135,3 +135,7 @@ td:last-child{
 .starters, .maincourse, .chats{
     width: 100%;
 }
+
+.maincourse{
+    grid-row: span 2;
+}
