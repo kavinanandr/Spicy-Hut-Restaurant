@@ -59,7 +59,7 @@ Spicy-Hut-Restaurant/
 └── README.md                # Project documentation
 ```
 
-### Prerequisites
+## Prerequisites
 
 - A modern web browser.
 - Git (optional, for cloning the repository).
