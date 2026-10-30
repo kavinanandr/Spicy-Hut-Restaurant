@@ -72,7 +72,7 @@ nav a:hover{
 
 .tagline1{
     color: var(--RED);
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     font-weight: bolder;
 }
 
@@ -276,4 +276,16 @@ i{
 .wrapper .youtube:hover .tooltip::before {
   background: #CD201F;
   color: var(--WHITE);
+}
+
+/* tablet design */
+@media screen and (min-width: 768px) {
+    
+    .tagline1{
+        font-size: 2rem;
+    }
+
+    .tagline2, .callus, button{
+        font-size: 1.25rem;
+    }
 }
