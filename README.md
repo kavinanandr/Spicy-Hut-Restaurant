@@ -51,7 +51,6 @@ Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth di
 
 ## 📁 File Structure
 
-```text
 Spicy-Hut-Restaurant/
 ├── img/
 │   ├── bg.jpg               # Hero background imagery
@@ -62,32 +61,17 @@ Spicy-Hut-Restaurant/
 
 ---
 
-🚀 Getting StartedPrerequisites
+## 🚀 Getting StartedPrerequisites
 
 Ensure you have a modern web browser (e.g., Google Chrome, Firefox, Edge, Brave) installed.Installation & SetupClone the repository:git clone https://github.com/kavinanandr/Spicy-Hut-Restaurant.git
 Navigate into the project directory:cd Spicy-Hut-Restaurant
-Open the project:Double-click index.html to open it directly in your web browser.Alternatively, serve it locally using the VS Code Live Server extension (http://127.0.0.1:5500).🔍 Key Implementation DetailsHTML <head> Setup & Asset LinkingInclude both your favicon and the Font Awesome CDN inside your <head> tag to render page branding and social media icons correctly:<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kavin Anand">
-    <meta name="description" content="A Fully Responsive Restaurant Website">
-    <title>Spicy Hut - Restaurant in Chennai</title>
+Open the project:Double-click index.html to open it directly in your web browser.Alternatively, serve it locally using the VS Code Live Server extension (http://127.0.0.1:5500).
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+---
 
-    <!-- Font Awesome CDN -->
-    <link 
-      rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
-      crossorigin="anonymous" 
-      referrerpolicy="no-referrer" 
-    />
+## 👤 Author
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-Color Palette ReferenceVariable TokenColor ValuePreview--WHITEwhitesmoke #f5f5f5--REDcrimson #dc143c--GREEN#53bf9d #53bf9d--YELLOW#ffc54d #ffc54d👤 AuthorKavin AnandGitHub: @kavinanandr 
+Kavin Anand
+GitHub: @kavinanandr
 
-##fgegg
+---
