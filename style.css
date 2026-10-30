@@ -27,6 +27,8 @@ body{
 
 header{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
     padding: 1rem;
     color: var(--RED);
 }
@@ -175,7 +177,9 @@ footer{
     padding: 0.5rem;
 }
 
-
+i{
+    margin-right: 0.5rem;
+}
 
 .wrapper {
   display: inline-flex;
