@@ -87,7 +87,7 @@ Spicy-Hut-Restaurant/
 
 ## 👤 Author
 
-Kavin Anand
-GitHub: @kavinanandr
+- Kavin Anand
+- GitHub: @kavinanandr
 
 ---
