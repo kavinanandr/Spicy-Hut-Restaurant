@@ -9,7 +9,7 @@ A modern, fully responsive single-page front-end website built for **Spicy Hut**
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
 - [File Structure](#-file-structure)
-- [Getting Started](#-getting-started)
+- [Prerequisites](#-prerequisites)
 - [Author](#-author)
 
 ---
@@ -49,6 +49,7 @@ Spicy Hut is a sleek, component-driven UI layout designed to deliver a smooth di
 
 ## 📁 File Structure
 
+```text
 Spicy-Hut-Restaurant/
 ├── img/
 │   ├── bg.jpg               # Hero background imagery
@@ -56,14 +57,31 @@ Spicy-Hut-Restaurant/
 ├── index.html               # Main webpage structure
 ├── style.css                # Styling, themes, layouts, and animations
 └── README.md                # Project documentation
+```
 
----
+### Prerequisites
 
-## 🚀 Getting StartedPrerequisites
+- A modern web browser.
+- Git (optional, for cloning the repository).
 
-Ensure you have a modern web browser (e.g., Google Chrome, Firefox, Edge, Brave) installed.Installation & SetupClone the repository:git clone https://github.com/kavinanandr/Spicy-Hut-Restaurant.git
-Navigate into the project directory:cd Spicy-Hut-Restaurant
-Open the project:Double-click index.html to open it directly in your web browser.Alternatively, serve it locally using the VS Code Live Server extension (http://127.0.0.1:5500).
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kavinanandr/Spicy-Hut-Restaurant.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Spicy-Hut-Restaurant
+   ```
+
+3. Open `index.html` in your browser.
+
+   Alternatively, use the Live Server extension in Visual Studio Code for a convenient local development experience.
+
 
 ---
 
